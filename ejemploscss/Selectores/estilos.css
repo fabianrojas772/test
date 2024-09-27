@@ -24,6 +24,26 @@ p {
 p[class="a"] {
   background-color: rgb(0, 0, 0);
 }
-a[p] {
+a[href="http://127.0.0.1:5500/ejemploscss/index.html"] {
+  background-color: black;
+}
+
+div#ejemploz ul div#primero {
+  font-size: 60px;
+}
+
+#lista > #segundo {
+  font-size: 50px;
+}
+
+div.tercero li + li {
+  font-size: 30px;
+}
+
+div.cuarto li ~ li {
+  color: aquamarine;
+}
+
+div#quinto * {
   font-size: 50px;
 }
