@@ -1,0 +1,36 @@
+body {
+  background-color: beige;
+}
+header{
+  font-size: 30px;
+  color:chocolate;
+}
+main h1 {
+  color: chocolate;
+  font-size: 40px;
+}
+.color-titulo {
+  color: chocolate;
+}
+#identificador {
+  color: chocolate;
+}
+[href="http://oferta.senasofiaplus.edu.co/sofia-oferta/"] {
+  text-decoration: none;
+  color: red;
+}
+[href="http://www.google.com/?hl=es"] {
+  text-decoration: none;
+  color: blue;
+}
+[href="http://www.google.com/intl/es-419/gmail/about/"] {
+  text-decoration: none;
+  color: yellow;
+}
+
+main p {
+  color: steelblue;
+}
+h1 , h2 {
+  color: brown;
+}
