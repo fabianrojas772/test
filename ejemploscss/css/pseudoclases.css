@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::selection {
+  background-color: tomato;
+}
+.enlace {
+  display: block;
+  background-color: tomato;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-bottom: solid 3px black;
+  transition: 0.5s;
+}
+.enlace:link {
+  background-color: steelblue;
+  color: #000;
+}
+.enlace:visited {
+  background-color: rgb(71, 55, 174);
+}
+.enlace:hover {
+  background-color: rgb(158, 172, 234);
+}
+.titulo {
+  background-color: rgb(109, 109, 180);
+  font-size: 30px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.titulo::before, .titulo::after { 
+  content:"";
+  width: 100%;
+  height: 4px;
+  display: line;
+  border: solid 3px rgb(0, 0, 0);
+  
+}
+
